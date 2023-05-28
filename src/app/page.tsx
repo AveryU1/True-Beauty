@@ -1,10 +1,14 @@
 import Image from 'next/image'
 import { Navbar } from './components/Navbar'
+import Clients from './components/Clients'
+import Benefits from './components/Benefits'
 
 export default function Home() {
   return (
-    <main className='mx-5'>
+    <main>
       <Navbar />
+      <Clients />
+      <Benefits />
     </main>
   )
 }
