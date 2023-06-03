@@ -14,29 +14,26 @@ module.exports = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       colors: {
+        primary: "#262626",
         secondary: "#FFAF00",
+        tertiary: "#505050",
+
+        "footer-background": "#222122",
+        "footer-text": "#FAFAFA",
       },
     },
     fontFamily: {
       poppins: ["var(--font-poppins)", "sans-serif"],
-      vidaLoka: ["Vidaloka", "serif"],
+      vidaLoka: ["var(--font-vidaLoka)", "sans-serif"],
     },
-
     screens: {
-      sm: "640px",
-      // => @media (min-width: 640px) { ... }
-
-      md: "768px",
-      // => @media (min-width: 768px) { ... }
-
-      lg: "1024px",
-      // => @media (min-width: 1024px) { ... }
-
-      xl: "1280px",
-      // => @media (min-width: 1280px) { ... }
-
-      "2xl": "1536px",
-      // => @media (min-width: 1536px) { ... }
+      xs: { min: "375px" },
+      ...defaultTheme.screens,
+      sm: { min: "640px" },
+      md: { min: "768px" },
+      lg: { min: "1024px" },
+      xl: { min: "1280px" },
+      "2xl": { min: "1536px" },
     },
   },
   plugins: [],

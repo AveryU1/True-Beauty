@@ -7,10 +7,10 @@ export const Navbar = (props: Props) => {
     const [toggle, setToggle] = useState(false);
     return (
         <header className='bg-white'>
-            <nav className='flex justify-between items-center w-full h-24 bg-cyan-500 py-4 px-4 fixed z-20'>
+            <nav className='flex justify-between items-center w-full max-w-full  md:h-24 bg-[#F9FBFE] py-4 px-4 fixed z-20'>
                 <div><h1 className='font-vidaLoka text-2xl'>Asad Ali</h1></div>
-                <div className='hidden md:flex justify-center items-center'>
-                    <ul className='hidden md:flex flex-1 justify-end items-center  gap-x-14'>
+                <div className='hidden lg:flex justify-center items-center'>
+                    <ul className='hidden lg:flex flex-1 justify-end items-center  gap-x-14'>
                         <li><a href="#" className='text-xl flex flex-col-reverse justify-center items-center   hover:border-b-2'>Products</a></li>
                         <li><a href="#" className='text-xl flex flex-col-reverse justify-center items-center   hover:border-b-2'>Story</a></li>
                         <li><a href="#" className='text-xl flex flex-col-reverse justify-center items-center   hover:border-b-2'>Manufacturing</a></li>
@@ -19,7 +19,7 @@ export const Navbar = (props: Props) => {
                     </ul>
                 </div>
 
-                <div className='hidden md:flex gap-4'>
+                <div className='hidden lg:flex gap-4'>
                     <BiSearchAlt2 className="cursor-pointer" style={{ fontSize: "20px" }} />
                     <BiCart className="cursor-pointer" style={{ fontSize: "20px" }} />
                     <div className="flex">
@@ -29,7 +29,7 @@ export const Navbar = (props: Props) => {
                 </div>
 
                 {/* Mobile menu */}
-                <div className="relative md:hidden w-[35px] h-[35px] flex justify-center items-center">
+                <div className="relative lg:hidden w-[35px] h-[35px] flex justify-center items-center">
                     <BiMenu className="cursor-pointer"
                         onClick={() => setToggle(prev => !prev)} style={{ fontSize: "20px" }} />
 
