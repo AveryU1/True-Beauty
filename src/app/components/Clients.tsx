@@ -7,20 +7,20 @@ type Props = {};
 
 const Clients = (props: Props) => {
     return (
-        <section className="md:flex lg:items-end md:justify-between  m-auto  max-w-[1440px] w-[90%]">
+        <section className="md:flex lg:items-end md:justify-between  m-auto  max-w-[1440px] w-[90%] mt-[6rem]">
             <div className="flex justify-center items-center xl:w-1/2">
-                <div className="w-1/2 xl:w-1/4">
+                <div className="w-1/2 md:w-1/3 lg:w-1/4 flex justify-center">
                     <Image src={ramaIzquierda} alt="rama izquierda imagen" />
                 </div>
-                <div className="w-1/2 xl:w-3/4">
-                    <h2 className="font-semibold text-xl xl:w-max xl:inline-flex 2xl:text-4xl text-primary xl:gap-[10px]">
+                <div className="w-1/2 lg:w-3/4">
+                    <h2 className="font-semibold text-xl xl:w-max xl:inline-flex xl:text-[1.8rem] 2xl:text-4xl text-primary xl:gap-[10px]">
                         Trusted By Over<span className="text-secondary">400,000</span>+ <span className="text-secondary">Client</span>
                     </h2>
-                    <h2 className="font-semibold text-xl mt-4 xl:text-4xl text-primary">Worldwide since <span className="text-secondary">2002</span></h2>
+                    <h2 className="font-semibold text-xl mt-4 xl:text-[1.8rem] 2xl:text-4xl text-primary">Worldwide since <span className="text-secondary">2002</span></h2>
                 </div>
             </div>
-            <div className="flex justify-center items-center xl:w-1/2">
-                <div className="md:flex md:items-start md:gap-4 xl:gap-16 items-center w-1/2 xl:w-3/4 xl:justify-end">
+            <div className="flex xl:w-1/2  justify-center items-center ">
+                <div className="md:flex md:items-start md:gap-4 xl:gap-16 items-center w-1/2 xl:w-3/4 lg:w-3/4 lg:justify-center xl:justify-end">
                     <div className="">
                         <h2 className="font-semibold text-xl pb-4 text-primary xl:text-4xl">4.6</h2>
                         <div className="flex gap-2">
@@ -38,7 +38,7 @@ const Clients = (props: Props) => {
                         <p className="text-primary">Worldwide Product <br />Sale per year</p>
                     </div>
                 </div>
-                <div className="w-1/2 xl:w-1/4">
+                <div className="w-1/2 md:w-1/3 lg:w-1/4 flex justify-center">
                     <Image src={ramaDerecha} alt="rama derecha imagen" />
                 </div>
             </div>

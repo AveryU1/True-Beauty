@@ -11,11 +11,11 @@ export const Navbar = (props: Props) => {
                 <div><h1 className='font-vidaLoka text-2xl'>Asad Ali</h1></div>
                 <div className='hidden lg:flex justify-center items-center'>
                     <ul className='hidden lg:flex flex-1 justify-end items-center  gap-x-14'>
-                        <li><a href="#" className='text-xl flex flex-col-reverse justify-center items-center   hover:border-b-2'>Products</a></li>
-                        <li><a href="#" className='text-xl flex flex-col-reverse justify-center items-center   hover:border-b-2'>Story</a></li>
-                        <li><a href="#" className='text-xl flex flex-col-reverse justify-center items-center   hover:border-b-2'>Manufacturing</a></li>
-                        <li><a href="#" className='text-xl flex flex-col-reverse justify-center items-center   hover:border-b-2'>About Us</a></li>
-                        <li><a href="#" className='text-xl flex flex-col-reverse justify-center items-center   hover:border-b-2'>Team</a></li>
+                        <li><a href="#" className='xl:text-xl flex flex-col-reverse justify-center items-center   hover:border-b-2'>Products</a></li>
+                        <li><a href="#" className='xl:text-xl flex flex-col-reverse justify-center items-center   hover:border-b-2'>Story</a></li>
+                        <li><a href="#" className='xl:text-xl flex flex-col-reverse justify-center items-center   hover:border-b-2'>Manufacturing</a></li>
+                        <li><a href="#" className='xl:text-xl flex flex-col-reverse justify-center items-center   hover:border-b-2'>About Us</a></li>
+                        <li><a href="#" className='xl:text-xl flex flex-col-reverse justify-center items-center   hover:border-b-2'>Team</a></li>
                     </ul>
                 </div>
 
