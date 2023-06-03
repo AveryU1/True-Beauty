@@ -1,0 +1,30 @@
+.swiper-slide {
+    width: 370px !important;
+}
+  /* Estilos personalizados para el círculo 
+.swiper-button-custom {
+    position: relative;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    z-index: 10;
+    border: solid 1px #F7B525;
+  }
+  */
+  
+  /* Estilos personalizados para los iconos */
+
+  .swiper-button-prev {
+    color: #F7B525 !important;
+  }
+  .swiper-button-next {
+    color: #F7B525 !important;
+  }

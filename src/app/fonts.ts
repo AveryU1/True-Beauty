@@ -3,11 +3,13 @@ export const poppins = Poppins({
     weight: ['400', '500', '600'],
     subsets: ['latin'],
     style: 'normal',
-    display: 'swap'
+    display: 'swap',
+    preload: false
   })
 export const vidaLoka = Vidaloka({
     weight: '400',
     style: 'normal',
-    subsets: ['latin']
+    subsets: ['latin'],
+    preload: false
 })
   
