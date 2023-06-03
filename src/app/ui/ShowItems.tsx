@@ -1,4 +1,3 @@
-"use client"
 import React from "react";
 import { benefits } from "../constants";
 import Image from "next/image";

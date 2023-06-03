@@ -18,7 +18,7 @@ const Footer = (props: Props) => {
         setExpandedContent(updatedExpandedContent)
     }
     return (
-        <footer className='bg-footer-background max-w-full'>
+        <footer className='bg-footer-background p-4 max-w-full mt-[2rem]'>
             <section className='py-8 lg:flex justify-between'>
                 <article className='lg:w-[25rem]'>
                     <h3 className={`text-secondary text-4xl ${vidaLoka.variable} font-vidaLoka mb-4`}>Asad Ali</h3>
@@ -33,7 +33,7 @@ const Footer = (props: Props) => {
                 <article>
                     <div className='flex justify-between mb-2'>
                         <h4 className='text-secondary text-xl'>Products</h4>
-                        <button onClick={() => handleExpandedContent(0)} className=' transition-all duration-300 transform lg:hidden'>
+                        <button onClick={() => handleExpandedContent(0)} className=' transition-all duration-300 transform xl:hidden'>
                             {expandedContent[0] ? (
                                 <BiMinus style={{ fontSize: "20px", color: "#FFAF00" }} />
                             ) : (
@@ -44,7 +44,7 @@ const Footer = (props: Props) => {
                     </div>
                     {
                         expandedContent[0] && (
-                            <ul className='transition-all duration-300 '>
+                            <ul className='transition-all duration-300 xl:hidden'>
                                 <li className='text-footer-text mb-2'>Categories</li>
                                 <li className='text-footer-text mb-2'>New Arrival</li>
                                 <li className='text-footer-text mb-2'>Popular</li>
@@ -52,11 +52,18 @@ const Footer = (props: Props) => {
                             </ul>
                         )
                     }
+                    <ul className='transition-all duration-300 hidden xl:block'>
+                        <li className='text-footer-text mb-2'>Categories</li>
+                        <li className='text-footer-text mb-2'>New Arrival</li>
+                        <li className='text-footer-text mb-2'>Popular</li>
+                        <li className='text-footer-text mb-2'>Sale</li>
+                    </ul>
                 </article>
+
                 <article>
                     <div className='flex justify-between mb-2'>
                         <h4 className='text-secondary text-xl'>Company</h4>
-                        <button onClick={() => handleExpandedContent(1)} className='lg:hidden' >
+                        <button onClick={() => handleExpandedContent(1)} className='xl:hidden' >
                             {expandedContent[1] ? (
                                 <BiMinus style={{ fontSize: "20px", color: "#FFAF00" }} />
                             ) : (
@@ -66,7 +73,7 @@ const Footer = (props: Props) => {
                     </div>
                     {
                         expandedContent[1] && (
-                            <ul>
+                            <ul className='xl:hidden'>
                                 <li className='text-footer-text mb-2'>About</li>
                                 <li className='text-footer-text mb-2'>News</li>
                                 <li className='text-footer-text mb-2'>Carrers</li>
@@ -74,12 +81,18 @@ const Footer = (props: Props) => {
                             </ul>
                         )
                     }
+                    <ul className='hidden xl:block'>
+                        <li className='text-footer-text mb-2'>About</li>
+                        <li className='text-footer-text mb-2'>News</li>
+                        <li className='text-footer-text mb-2'>Carrers</li>
+                        <li className='text-footer-text mb-2'>Services</li>
+                    </ul>
 
                 </article>
                 <article>
                     <div className='flex justify-between mb-2'>
                         <h4 className='text-secondary text-xl '>Support</h4>
-                        <button onClick={() => handleExpandedContent(2)} className='lg:hidden' >
+                        <button onClick={() => handleExpandedContent(2)} className='xl:hidden' >
                             {expandedContent[2] ? (
                                 <BiMinus style={{ fontSize: "20px", color: "#FFAF00" }} />
                             ) : (
@@ -89,7 +102,7 @@ const Footer = (props: Props) => {
                     </div>
                     {
                         expandedContent[2] && (
-                            <ul>
+                            <ul className='xl:hidden'>
                                 <li className='text-footer-text mb-2'>Help Center</li>
                                 <li className='text-footer-text mb-2'>Delivery Service</li>
                                 <li className='text-footer-text mb-2'>Privacy Policy</li>
@@ -97,7 +110,12 @@ const Footer = (props: Props) => {
                             </ul>
                         )
                     }
-
+                    <ul className='hidden xl:block'>
+                        <li className='text-footer-text mb-2'>Help Center</li>
+                        <li className='text-footer-text mb-2'>Delivery Service</li>
+                        <li className='text-footer-text mb-2'>Privacy Policy</li>
+                        <li className='text-footer-text mb-2'>Terms of Service</li>
+                    </ul>
                 </article>
                 <article className='lg:w-[20rem]'>
                     <h4 className='text-secondary text-xl mb-2 '>Contact</h4>
@@ -113,7 +131,10 @@ const Footer = (props: Props) => {
                         </div>
                     </div>
                 </article>
+                {/* Larger devices */}
+
             </section>
+
             <section>
                 <article className='border-t-2 border-secondary p-4'>
                     <p className='text-footer-text'>Copyright © 2022 Malik Adnan. All Right Reseved</p>
