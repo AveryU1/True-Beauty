@@ -1,7 +1,7 @@
 "use client"
 import Image from 'next/image'
 import React from 'react'
-import { testimonials } from '../testimonials'
+import { testimonials } from '../constants/testimonials'
 import { BsStarFill } from 'react-icons/bs'
 import { FiChevronLeft, FiChevronRight } from 'react-icons/fi';
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -19,13 +19,13 @@ import { Navigation } from "swiper";
 export const Testimonials = () => {
 
   return (
-    <section className='flex flex-col overflow-hidden py-10'>
+    <section className='flex flex-col overflow-hidden py-10 mt-[2rem] max-w-[1440px] w-[90%] m-auto' id='team'>
         <div className='font-poppins flex flex-col items-center md:flex-row md:justify-around'>
             <h3 className='text-[30px] font-semibold leading-[72px]'>Testimoinials</h3>
         </div>
         <div className='md:px-16 overflow-hidden'>
-        <Swiper  modules={[Navigation]} spaceBetween={30}
-            slidesPerView={1}
+        <Swiper  modules={[Navigation]} 
+            loop={false}
             navigation={{
                 prevEl: '.swiper-button-prev',
                 nextEl: '.swiper-button-next',

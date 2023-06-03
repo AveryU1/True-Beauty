@@ -1,6 +1,11 @@
 .swiper-slide {
-    width: 370px !important;
+    width: 382px !important; 
 }
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
   /* Estilos personalizados para el círculo 
 .swiper-button-custom {
     position: relative;
