@@ -1,7 +1,5 @@
 import React from "react";
-import { benefits } from "../constants";
 import Image from "next/image";
-import natural from "../../../public/assets/natural.svg"
 import { Items } from "../../../typings";
 interface Props {
   benefits?: Items[],
