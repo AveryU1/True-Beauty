@@ -3,7 +3,7 @@ import Image from "next/image"
 
 export const AboutUs = () => {
   return (
-    <section className="flex max-w-[1440px] w-[90%] m-auto py-4 flex-col md:flex-row-reverse justify-around items-center mt-[2rem]" id="aboutus">
+    <section className="flex max-w-[1440px] w-[90%] m-auto pt-24 flex-col md:flex-row-reverse justify-around items-center" id="aboutus">
         <div className="md:w-[50%]">
             <span className="font-poppins font-normal text-[18px] leading-[36px]">A bit</span>
             <h3 className="font-poppins font-semibold leading-[52px] text-[30px] tracking-[0.002em]">About us</h3>

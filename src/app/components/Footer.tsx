@@ -18,7 +18,7 @@ const Footer = (props: Props) => {
         setExpandedContent(updatedExpandedContent)
     }
     return (
-        <footer className='bg-footer-background p-4 max-w-full mt-[2rem]'>
+        <footer className='bg-footer-background p-4 max-w-full '>
             <section className='py-8 lg:flex justify-between'>
                 <article className='lg:w-[25rem]'>
                     <h3 className={`text-secondary text-4xl ${vidaLoka.variable} font-vidaLoka mb-4`}>Asad Ali</h3>

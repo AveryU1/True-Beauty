@@ -7,7 +7,7 @@ import Image from "next/image";
 
 const Clients = () => {
     return (
-        <section className="md:flex lg:items-end md:justify-between  m-auto  max-w-[1440px] w-[90%] mt-[2rem]" id="story">
+        <section className="md:flex lg:items-end md:justify-between pt-24 m-auto  max-w-[1440px] w-[90%]" id="story">
             <div className="flex justify-center items-center xl:w-1/2">
                 <div className="w-1/2 md:w-1/3 lg:w-1/4 flex justify-center">
                     <Image src={ramaIzquierda} alt="rama izquierda imagen" />
