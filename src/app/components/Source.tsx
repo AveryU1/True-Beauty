@@ -47,7 +47,7 @@ const Source = (props: Props) => {
                         <div className=" bg-secondary backdrop-opacity-10 flex justify-center items-center rounded-full h-[20px] w-[20px]">
                             <BiCheck />
                         </div>
-                        <p>You can return our product if it's not original</p>
+                        <p>You can return our product if it&#39s not original</p>
                     </li>
                 </ul>
             </div>
