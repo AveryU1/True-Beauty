@@ -13,7 +13,7 @@ const Source = () => {
                 <div className="flex justify-center">
 
                     <article className="text-left lg:w-[700px]  pb-4">
-                        <h2 className="text-xl font-semibold text-primary xl:text-4xl pb-4">
+                        <h2 className="text-2xl font-semibold text-primary xl:text-4xl pb-4">
                             The power of Purity Source
                         </h2>
                         <p className="text-tertiary">
