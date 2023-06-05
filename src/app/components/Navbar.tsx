@@ -36,14 +36,14 @@ export const Navbar = (props: Props) => {
                     {
                         toggle && (
 
-                            <div className='fixed flex flex-col items-end top-0 right-0 bottom-0 left-0 w-full z-40 pt-8 bg-cyan-100 px-4'>
+                            <div className='fixed flex flex-col items-end top-0 right-0 bottom-0 left-0 w-full z-40 pt-8 bg-[#F9FBFE] px-4'>
                                 <BiX onClick={() => setToggle(prev => !prev)} style={{ fontSize: "30px" }} />
                                 <ul className='flex flex-wrap m-0 p-0 w-full h-full items-center justify-center flex-col'>
-                                    <li className="m-4 "><a href="#products" className='text-xl'>Products</a></li>
-                                    <li className="m-4 "><a href="#story" className='text-xl'>Story</a></li>
-                                    <li className="m-4 "><a href="#manufacturing" className='text-xl'>Manufacturing</a></li>
-                                    <li className="m-4 "><a href="#aboutus" className='text-xl'>About Us</a></li>
-                                    <li className="m-4 "><a href="#team" className='text-xl'>Team</a></li>
+                                    <li onClick={() => setToggle(prev => !prev)} className="m-4 "><a href="#products" className='text-xl'>Products</a></li>
+                                    <li onClick={() => setToggle(prev => !prev)} className="m-4 "><a href="#story" className='text-xl'>Story</a></li>
+                                    <li onClick={() => setToggle(prev => !prev)} className="m-4 "><a href="#manufacturing" className='text-xl'>Manufacturing</a></li>
+                                    <li onClick={() => setToggle(prev => !prev)} className="m-4 "><a href="#aboutus" className='text-xl'>About Us</a></li>
+                                    <li onClick={() => setToggle(prev => !prev)} className="m-4 "><a href="#team" className='text-xl'>Team</a></li>
                                 </ul>
                             </div>
                         )
