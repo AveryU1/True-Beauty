@@ -10,16 +10,16 @@ type Props = {};
 
 const Source = (props: Props) => {
     return (
-        <section className="flex flex-col max-w-[1440px] w-[90%] m-auto lg:flex-row lg:items-center" id="products">
+        <section className="flex flex-col max-w-[1440px] pt-8 w-[90%] m-auto lg:flex-row lg:items-center" id="products">
             <div className="lg:w-1/2 relative">
                 <div className="flex justify-center">
 
                     <article className="text-left lg:w-[700px]  pb-4">
-                        <h2 className="text-xl font-semibold text-primary xl:text-4xl pb-4">
+                        <h2 className="text-2xl font-semibold text-primary xl:text-4xl pb-4">
                             The power of Purity Source
                         </h2>
                         <p className="text-tertiary">
-                            Inspired by hydration and Japan&#39s beauty rituals, uruoi focuses on
+                            Inspired by hydration and Japans beauty rituals, uruoi focuses on
                             the core elements of skincare to combine powerful ingredients backed
                             by science and authentically Japanese minimalist philosophy.
                         </p>
