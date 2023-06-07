@@ -17,7 +17,7 @@ const Source = () => {
                             The power of Purity Source
                         </h2>
                         <p className="text-tertiary">
-                            Inspired by hydration and `Japan&#39s` beauty rituals, uruoi focuses on
+                            Inspired by hydration and Japan&#39;s beauty rituals, uruoi focuses on
                             the core elements of skincare to combine powerful ingredients backed
                             by science and authentically Japanese minimalist philosophy.
                         </p>
@@ -45,7 +45,7 @@ const Source = () => {
                         <div className=" bg-secondary backdrop-opacity-10 flex justify-center items-center rounded-full h-[20px] w-[20px]">
                             <BiCheck />
                         </div>
-                        <p>You can return our product if `it&#39s` not original</p>
+                        <p>You can return our product if it&#39;s not original</p>
                     </li>
                 </ul>
             </div>
