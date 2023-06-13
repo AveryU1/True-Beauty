@@ -78,7 +78,7 @@ const SliderCards = ({ testimonials }: Props) => {
                             <div className='flex gap-1 text-[#F7B525]'><BsStarFill /><BsStarFill /><BsStarFill /><BsStarFill /><BsStarFill /></div>
                             <p className='font-poppins font-normal text-[14px] leading-[35.7px] text-[#505050]'>{coments.message}</p>
                             <div className='flex gap-4'>
-                                <Image src={coments.imgUrl} alt='Team' height={82} width={82} priority={true}/>
+                                <Image src={coments.imgUrl} alt='Team' height={82} width={82} loading="lazy"/>
                                 <div className='flex flex-col justify-evenly font-poppins '>
                                     <span className='font-bold text-[14px] leading-[30px] text-[#262626]'>{coments.name}</span>
                                     <span className='text-[#9C9C9C] text-[12px] leading-[30px]'>{coments.charge}</span>

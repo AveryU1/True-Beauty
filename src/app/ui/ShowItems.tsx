@@ -11,7 +11,7 @@ const ShowItems = ({ benefits, comestics }: Props) => {
       {
         benefits?.map(item => (
         <li className="w-52 flex flex-col items-center text-center text-tertiary" key={item.name}>
-          <Image src={item.image} alt="benefit-image" />
+          <Image src={item.image} alt="benefit-image" loading="lazy"/>
           <h3 className="font-semibold py-2">{item.name}</h3>
           <p>{item.text}</p>
         </li>
@@ -19,7 +19,7 @@ const ShowItems = ({ benefits, comestics }: Props) => {
       {
         !benefits && comestics && comestics.map(comestic => (
           <li className="w-52 flex flex-col items-center text-center text-tertiary" key={comestic.name}>
-          <Image src={comestic.image} alt="benefit-image" />
+          <Image src={comestic.image} alt="benefit-image" loading="lazy"/>
           <h3 className="font-semibold py-2">{comestic.name}</h3>
           <p>{comestic.text}</p>
         </li>

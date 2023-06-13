@@ -14,10 +14,10 @@ export const AboutUs = () => {
         <div className="flex flex-col justify-center items-center overflow-hidden h-[398px] w-[350px] md:w-[450px]">
             <div className="w-[292px] h-[289px] bg-[#F4F4F4] absolute"></div>
             <div className="relative top-[328px]">
-                <Image src='/assets/imageProduct.svg' alt="Two Products" width={248} height={248} priority={true} />
+                <Image src='/assets/imageProduct.svg' alt="Two Products" width={248} height={248} loading="lazy" />
             </div>
-                <Image src='/assets/Rectangle118.svg' alt="Border" width={310} height={349} priority={true} className="h-[561] relative top-4"/>
-                <Image src='/assets/Rectangle118.svg' alt="Border" width={310} height={361} priority={true} className=" h-[549] relative right-4 bottom-[278px]"/>
+                <Image src='/assets/Rectangle118.svg' alt="Border" width={310} height={349} loading="lazy" className="h-[561] relative top-4"/>
+                <Image src='/assets/Rectangle118.svg' alt="Border" width={310} height={361} loading="lazy" className=" h-[549] relative right-4 bottom-[278px]"/>
         </div>
     </section>
   )

@@ -24,9 +24,9 @@ const Footer = (props: Props) => {
                     <h3 className={`text-secondary text-4xl ${vidaLoka.variable} font-vidaLoka mb-4`}>Asad Ali</h3>
                     <p className='text-footer-text mb-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     <div className='flex gap-4 mb-4'>
-                        <Image width={30} src={instagram} alt='instagram' />
-                        <Image width={30} src={twitter} alt='twitter' />
-                        <Image width={30} src={facebook} alt='facebook' />
+                        <Image width={30} src={instagram} alt='instagram' loading="lazy"/>
+                        <Image width={30} src={twitter} alt='twitter' loading="lazy"/>
+                        <Image width={30} src={facebook} alt='facebook' loading="lazy"/>
 
                     </div>
                 </article>
@@ -122,11 +122,11 @@ const Footer = (props: Props) => {
                     <p className='text-footer-text mb-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem asperiores veritatis ipsum, placeat deleniti.</p>
                     <div className='flex flex-col items-start gap-2' >
                         <div className='flex justify-center items-center gap-2'>
-                            <Image src={phone} alt='phone' />
+                            <Image src={phone} alt='phone' loading="lazy"/>
                             <p className='text-footer-text'>+12345678904</p>
                         </div>
                         <div className='flex justify-center items-center gap-2'>
-                            <Image src={email} alt='email' />
+                            <Image src={email} alt='email' loading="lazy"/>
                             <p className='text-footer-text'>malikdanan@outlook.com</p>
                         </div>
                     </div>

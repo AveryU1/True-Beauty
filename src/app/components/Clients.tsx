@@ -10,7 +10,7 @@ const Clients = () => {
         <section className="md:flex lg:items-end md:justify-between pt-24 m-auto  max-w-[1440px] w-[90%]" id="story">
             <div className="flex justify-center items-center xl:w-1/2">
                 <div className="w-1/2 md:w-1/3 lg:w-1/4 flex justify-center">
-                    <Image src={ramaIzquierda} alt="rama izquierda imagen" />
+                    <Image src={ramaIzquierda} alt="rama izquierda imagen" loading="lazy"/>
                 </div>
                 <div className="w-1/2 lg:w-3/4">
                     <h2 className="font-semibold text-xl xl:w-max xl:inline-flex xl:text-[1.8rem] 2xl:text-4xl text-primary xl:gap-[10px]">
@@ -39,7 +39,7 @@ const Clients = () => {
                     </div>
                 </div>
                 <div className="w-1/2 md:w-1/3 lg:w-1/4 flex justify-center">
-                    <Image src={ramaDerecha} alt="rama derecha imagen" />
+                    <Image src={ramaDerecha} alt="rama derecha imagen" loading="lazy"/>
                 </div>
             </div>
         </section>

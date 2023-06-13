@@ -28,16 +28,16 @@ export const HeroHeader = () => {
                 </div>
             </div>
             <div className='absolute z-[1] h-[450px] hidden lg:inline'>
-                    <Image src='/assets/hero1.svg' alt='border' width={102} height={102} priority={true} className='relative left-[146px] bottom-[10%] z-[1px]'/>
-                    <Image src='/assets/hero2.svg' alt='border' width={124} height={124} priority={true} className='relative right-[36px] top-[64%]'/>
+                    <Image src='/assets/hero1.svg' alt='border' width={102} height={102} loading="lazy" className='relative left-[146px] bottom-[10%] z-[1px]'/>
+                    <Image src='/assets/hero2.svg' alt='border' width={124} height={124} loading="lazy" className='relative right-[36px] top-[64%]'/>
             </div>
             <div className='flex justify-center items-center flex-col overflow-hidden w-56 h-96 md:h-[490px] md:w-[350px]'>
-                    <Image src='/assets/border2.svg' alt='border' width={298} height={356} priority={true} className='w-[100px] md:w-[130px]  relative right-14 top-24 md:top-[140px]'/>
-                    <Image src='/assets/Rectangle.svg' alt='Rectangle back of the serum' width={434} height={701} priority={true}  className='w-[180px] md:w-[210px]'/>
+                    <Image src='/assets/border2.svg' alt='border' width={298} height={356} loading="lazy" className='w-[100px] md:w-[130px]  relative right-14 top-24 md:top-[140px]'/>
+                    <Image src='/assets/Rectangle.svg' alt='Rectangle back of the serum' width={434} height={701} loading="lazy"  className='w-[180px] md:w-[210px]'/>
                 <div className='absolute'>
-                    <Image src='/assets/imageSerum.svg' alt='Serum K-Beauty' width={270} height={610} priority={true} className='w-[120px] md:w-[130px] z-0 '/>
+                    <Image src='/assets/imageSerum.svg' alt='Serum K-Beauty' width={270} height={610} loading="lazy" className='w-[120px] md:w-[130px] z-0 '/>
                 </div>
-                    <Image src='/assets/border.svg' alt='border' width={298} height={356} priority={true} className='w-[100px] md:w-[130px] relative left-14 bottom-24 md:bottom-[130px]'/>
+                    <Image src='/assets/border.svg' alt='border' width={298} height={356} loading="lazy" className='w-[100px] md:w-[130px] relative left-14 bottom-24 md:bottom-[130px]'/>
                     {/* <Image src='/assets/hero3.svg' alt='border' width={80} height={80} priority={true} className='absolute left-[144px] bottom-[94%]'/> */}
             </div>
             

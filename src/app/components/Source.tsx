@@ -52,18 +52,18 @@ const Source = () => {
             <div className="lg:w-1/2 relative" >
                 <div className="relative lg:w-[350px] lg:ml-auto">
                     <div className="relative h-[400px] xl:h-[500px]  flex justify-center items-end">
-                        <Image className="h-[75%] lg:h-[75%] " src={rectangule} alt="rectangule image" />
+                        <Image className="h-[75%] lg:h-[75%] " src={rectangule} alt="rectangule image" loading="lazy"/>
                         <div className="absolute top-[0] lg:top-0 ">
 
-                            <Image className="pr-4 h-[350px]  lg:h-[350px] xl:h-[450px]" src={creamProduct} alt="cream-product" />
+                            <Image className="pr-4 h-[350px]  lg:h-[350px] xl:h-[450px]" src={creamProduct} alt="cream-product" loading="lazy"/>
                         </div>
                     </div>
                     <div className="hidden absolute bottom-0 right-0 w-[250px]">
 
                         <div className="relative ">
-                            <Image src={rectangule} alt="rectangule-image" />
+                            <Image src={rectangule} alt="rectangule-image" loading="lazy"/>
                             <div className="absolute bottom-0 right-0">
-                                <Image className="relative" src={dropsProduct} width={150} alt="dropsProduct" />
+                                <Image className="relative" src={dropsProduct} width={150} alt="dropsProduct" loading="lazy"/>
                             </div>
                         </div>
                     </div>
